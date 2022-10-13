@@ -5,23 +5,23 @@ echo '<title>Fibonacchi series Finding</title>';
 echo '<h3>Fibonacchi series Finding -</h3>';
 
 
-// $n1 = 0;
-// $n2 = 1;
+$n1 = 0;
+$n2 = 1;
 
 
-// for($i = 1; $i <= 9; $i++){
-//     $n3 = $n1 + $n2;
+for($i = 1; $i <= 9; $i++){
+    $n3 = $n1 + $n2;
 
-//     $n1 = $n2;  // 0 = 1
-//     $n2 = $n3;  // 1 = 1
+    $n1 = $n2;  // 0 = 1
+    $n2 = $n3;  // 1 = 1
 
-//     echo $n3 . '<br>';
+    echo $n3 . '<br>';
 
-// }
+}
 
-// echo '<br>';
+echo '<br>';
 
-// echo  "Fibonacci Result is = ".$n3;
+echo  "Fibonacci Result is = ".$n3;
 
 
 $a = 0;
