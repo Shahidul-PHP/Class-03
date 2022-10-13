@@ -5,29 +5,33 @@ echo '<title>Factorial in PHP</title>';
 echo '<h2>Find Factorial Using PHP</h2>';
 
 
-$FactorialNeed = 8;
-$end = 1;
-$z = 1;
+$fact_want = 6;
+$endNum = 1;
 
-
-
-if($FactorialNeed == $FactorialNeed){
-    
+for($i = $fact_want; $i >= 1; $i--){
+    $endNum = $endNum * $i;
+    echo $endNum .'<br>';
 }
 
+echo '</br>';
 
-for($x = $FactorialNeed; $x >= 1; $x--){
-    $end = $end * $x;
-
-    for($i = $FactorialNeed; $i >= 1; $i--){
-        echo "factorial of $i"." is ". ' = '. $i - $z.'<br>';
-    }
-}
-
-echo '<br>';
+echo $endNum;
 
 
-echo "Factoirial of ". $FactorialNeed." is = ".$end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
