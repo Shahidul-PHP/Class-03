@@ -6,7 +6,7 @@
 * Loops In PHP
 * Fibonacci Series
 * Factorial
-* Daba Coat using Loop
+* Chease Board Making USing Loop
 * Class test for past 3 Classes
 
 
