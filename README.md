@@ -6,7 +6,7 @@
 * Loops In PHP
 * Fibonacci Series
 * Factorial
-* Chease Board Making USing Loop
+* Chease Board Making Using Loop
 * Class test for past 3 Classes
 
 
