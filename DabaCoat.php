@@ -14,16 +14,16 @@
     </center>
 
     <center>
-        <table cellpadding="0" cellspacing="0" border="2">
+        <table cellpadding="0" cellspacing="0" border="5">
             <?php
                 for($row=1; $row <= 8; $row++){
                     echo '<tr>';
                         for($col=1; $col <= 8; $col++){
                             $total = $row + $col;
                             if($total % 2 == 0){
-                                echo '<td width="50" height="50" bgcolor="white"></td>';
+                                 echo '<td width="50" height="50" bgcolor="black"></td>';
                             }else{
-                                echo '<td width="50" height="50" bgcolor="black"></td>';
+                                echo '<td width="50" height="50" bgcolor="white"></td>';
                             }
                         }
                     echo '</tr>';
