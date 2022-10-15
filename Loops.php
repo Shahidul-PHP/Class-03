@@ -28,11 +28,8 @@
 
     <?php
     // $text = 'W3resource';
-
     // echo $text.'<br>';
-
     // echo trim($text,"Wres");
-
 
 
     // function fname($test){
@@ -48,16 +45,18 @@
 
     // fname('ajmot');
 
-    $n = 168956;
-    $count = strlen($n);
+   while(1){
+        $n = readline('enter your password');
+        $count = strlen($n);
 
-    if ($count == 8) {
-        echo "<p class='text3'>Your Password is Correct</p>";
-    } elseif ($count < 8) {
-        echo "<p class='text2'>Password should at least 8 Character !!</p>";
-    } elseif ($count > 8) {
-        echo "<p class='text1'>Your Password is Cross the Limit . Password should at least 8 Character</p>";
-    }
+        if ($count == 8) {
+            echo "<p class='text3'>Your Password is Correct</p>";
+        } elseif ($count < 8) {
+            echo "<p class='text2'>Password should at least 8 Character !!</p>";
+        } elseif ($count > 8) {
+            echo "<p class='text1'>Your Password is Cross the Limit . Password should at least 8 Character</p>";
+        }
+   }
 
     ?>
 
